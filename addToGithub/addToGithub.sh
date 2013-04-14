@@ -1,7 +1,7 @@
 #!/bin/bash
 #################################################################
 #
-# Copyright (C) 2013 Timo Tomasini <timo@tomasini-mail.de>
+# Copyright (c) 2013 Timo Tomasini <timo@tomasini-mail.de>
 #
 # License:
 #       This program is free software; you can redistribute
@@ -27,16 +27,16 @@
 #
 # Description:
 #    Simple bash script to upload existing code to github and
-#   to create a new repository
+#    to create a new repository
 #
 # Usage:
 #    To run this script, place it into your project root
-#	 folder and run it 
+#    folder and run it 
 #
 # Version: 0.1
 #
 # Requirements:
-#    unix like system, git, curl
+#    unix-like system, git, curl
 #
 #################################################################
 
@@ -65,6 +65,6 @@ if [ "$?" == "0" ] ; then
 	git push -u origin master
 	return 0
 else
-	echo "Wrong statements; exit 1"
+	echo "Wrong statement(s); exit 1"
 	return 1
 fi
