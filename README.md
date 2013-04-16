@@ -25,3 +25,8 @@ Temple Place, Suite 330, Boston, MA  02111-1307  USA
 An on-line copy of the GNU General Public License can
 be downloaded from the FSF web page at:
 http://www.gnu.org/copyleft/gpl.html
+
+DESCRIPTIONS
+------------
+### addToGithub ######
+Simple bash script to upload existing code to github and to create a new repository
